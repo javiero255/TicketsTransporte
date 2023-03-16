@@ -1,0 +1,94 @@
+body {
+    background-color: #f3f3f3;
+    font-family: Arial, sans-serif;
+  
+}  
+  h1 {
+    font-size: 24px;
+    text-align: center;
+    margin: 0;
+    padding-top: 20px;
+  }
+  
+  form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #f9f9f9;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.2);
+    width: 80%;
+    margin: auto;
+    margin-top: 30px;
+    padding: 20px;
+  }
+  
+  label {
+    font-weight: bold;
+    color: #999;
+    margin-bottom: 10px;
+    display: block;
+  }
+  
+  input[type="number"],
+  input[type="time"] {
+    font-size: 18px;
+    padding: 8px 10px;
+    border: none;
+    border-bottom: 2px solid #ccc;
+    background-color: transparent;
+    width: 100%;
+    margin-bottom: 25px;
+    box-sizing: border-box;
+    text-align: center;
+    outline: none;
+    -webkit-appearance: none;
+  }
+  
+  input[type="checkbox"] {
+    margin-bottom: 25px;
+  }
+  
+  input[type="button"] {
+    background-color: #008CBA;
+    border: none;
+    color: white;
+    padding: 12px 24px;
+    text-decoration: none;
+    margin-top: 20px;
+    cursor: pointer;
+    border-radius: 3px;
+    font-size: 18px;
+    text-transform: uppercase;
+  }
+  
+  input[type="button"]:hover {
+    background-color: #005580;
+  }
+  
+  table {
+    width: 80%;
+    margin: auto;
+    margin-top: 30px;
+    border-collapse: collapse;
+    font-size: 16px;
+  }
+  
+  th,
+  td {
+    padding: 10px;
+    text-align: left;
+    border: 1px solid black;
+  }
+  
+  th:first-child,
+  td:first-child {
+    width: 50%;
+  }
+  
+  th:last-child,
+  td:last-child {
+    width: 25%;
+    text-align: right;
+  }
+  

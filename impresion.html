@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Tickets de Camión</title>
+    <link rel="stylesheet" type="text/css" href="css2.css">
+</head>
+<body>
+	
+	<div>Menores</div>
+<div id="tickets1"></div>
+<div>Adultos</div>
+<div id="tickets2"></div>
+<div>Costo boleto de Adultos</div>
+<div id="tickets3"></div>
+<div>Costo boleto de Menores</div>
+<div id="tickets4"></div>
+<div>Total</div>
+<div id="tickets5"></div>
+<script>
+	var boleto=localStorage.getItem("contadorMenores");
+	var boleto2=localStorage.getItem("contadorAdultos");
+	var boleto3=localStorage.getItem("costoAdultos");
+	var boleto4=localStorage.getItem("costoMenores");
+	var boleto5=localStorage.getItem("total");
+	document.getElementById("tickets1").innerHTML=boleto;
+	document.getElementById("tickets2").innerHTML=boleto2;
+	document.getElementById("tickets3").innerHTML=boleto3;
+	document.getElementById("tickets4").innerHTML=boleto4;
+	document.getElementById("tickets5").innerHTML=boleto5;
+</script>
+<link rel="stylesheet" href="css2.css">
+</body>
+</html>

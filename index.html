@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Tickets de Camión</title>
+    <link rel="stylesheet" type="text/css" href="css1.css">
+</head>
+<body>
+    <h1>Ingrese la información del pasajero</h1>
+    <form>
+        <label for="pasajero">Número de Adultos:</label>
+        <input type="number" id="pasajero" name="pasajero"><br><br>
+
+        <label for="pasajeroN">Número de Niños:</label>
+        <input type="number" id="pasajeroN" name="pasajeroN"><br><br>
+
+        <!-- <label for="adulto">¿Es adulto?</label>
+        <input type="checkbox" id="adulto" name="adulto"><br><br> -->
+
+        <input type="button" value="Agregar" onclick="imprimirTicket()">
+        <button onclick="precioTotal()">Precio Total</button>
+        <button onclick="generarTicket2()">generar</button>
+    </form>
+
+    <h1>Tickets de Camión</h1>
+    <ul id="listaTickets">
+    </ul>
+    <script src="tickets.js"></script>
+</body>
+</html>
